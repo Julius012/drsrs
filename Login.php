@@ -2,7 +2,7 @@
 include 'db2.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $email = $_PO ST['loginEmail'];
+    $email = $_POST['loginEmail'];
     $password = $_POST['loginPassword'];
 
     // Updated query to also retrieve the user_type column.
